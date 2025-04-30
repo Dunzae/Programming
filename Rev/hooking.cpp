@@ -4,7 +4,7 @@
 
 void hookFunc(const char *str)
 {
-    printf("IAT ï¿½ï¿½Å· ï¿½ï¿½ï¿½ï¿½ : %s\n", str);
+    printf("IAT puts ÇÔ¼ö ÈÄÅ· ¼º°ø : %s\n", str);
 }
 
 int main()
@@ -48,6 +48,6 @@ int main()
         importTable = importTable + 1;
     }
 
-    puts("putsï¿½ï¿½ ï¿½Ñ±ï¿½ ï¿½ï¿½ï¿½Ú°ï¿½");
+    puts("puts ÇÔ¼ö ½ÇÇà");
     return 0;
 }
